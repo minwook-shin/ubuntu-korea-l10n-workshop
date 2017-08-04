@@ -2,7 +2,7 @@
 # ubuntu-korea-l10n-workshop
 ### ! 본 저장소는 우분투 한국 커뮤니티 번역 워크샵의 진행에 도움을 주기위한 자료입니다.
 
-## 문서 바로가기
+### 문서 바로가기
  
 [00.목차.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/00.%EB%AA%A9%EC%B0%A8.md)
 
