@@ -1,8 +1,25 @@
 
 # ubuntu-korea-l10n-workshop
 ### ! 본 저장소는 우분투 한국 커뮤니티 번역 워크샵의 진행에 도움을 주기위한 자료입니다.
+
+## 문서 바로가기
+ 
+[00.목차.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/00.%EB%AA%A9%EC%B0%A8.md)
+
+[01.안내&준비.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/01.%EC%95%88%EB%82%B4%26%EC%A4%80%EB%B9%84.md)
+ 
+[02.launchpad가입하기.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/02.launchpad%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0.md)
+ 
+[03.GPG만들기.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/03.GPG%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+ 
+[04.code-of-conduct서명하기.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/04.code-of-conduct%EC%84%9C%EB%AA%85%ED%95%98%EA%B8%B0.md)
+ 
+[05.팀가입하기.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/05.%ED%8C%80%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0.md) 
+ 
+06.번역참여해보기.md(워크샵 현장에서만 제공됩니다) 
 https://github.com/minwook-shin/ubuntu-korea-l10n-workshop
 
+## 워크샵 본문
 우분투 번역에 기여하는 방법을 알아보고, 직접 번역에 참여도 해보는 실습 행사입니다.
 소프트웨어 번역에 관심이 있고, 우분투 번역에 참여해 보고 싶으시다면 누구든지 참석할 수 있습니다.
 참석 하시는 분들은 각자 개인 노트북을 지참 하셔야 합니다.
