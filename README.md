@@ -19,7 +19,7 @@ https://github.com/minwook-shin/ubuntu-korea-l10n-workshop
  
 06.번역참여해보기.md (워크샵 현장에서만 제공됩니다) 
 
-[세부 일정 안내](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/docs/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf)(그 외 기타 문서는 docs 폴더에 있습니다.)
+[세부 일정 안내](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/docs/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf) (그 외 기타 문서는 docs 폴더에 있습니다.)
  
 ## 워크샵 본문
 우분투 번역에 기여하는 방법을 알아보고, 직접 번역에 참여도 해보는 실습 행사입니다.
