@@ -17,7 +17,7 @@ https://github.com/minwook-shin/ubuntu-korea-l10n-workshop
  
 [05.팀가입하기.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/05.%ED%8C%80%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0.md) 
  
-06.번역참여해보기.md (워크샵 현장에서만 제공됩니다) 
+[06.번역참여해보기.md](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/06.%EB%B2%88%EC%97%AD%EC%B0%B8%EC%97%AC%ED%95%B4%EB%B3%B4%EA%B8%B0.md) 
 
 [세부 일정 안내](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/docs/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf) (그 외 기타 문서는 docs 폴더에 있습니다.)
  
