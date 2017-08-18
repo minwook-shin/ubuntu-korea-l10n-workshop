@@ -1,7 +1,7 @@
 
 # ubuntu-korea-l10n-workshop
 https://github.com/minwook-shin/ubuntu-korea-l10n-workshop
-## ! 본 저장소는 우분투 한국 커뮤니티 번역 워크샵의 진행도움 자료입니다.
+## ! 본 저장소는 우분투 한국 커뮤니티 번역 워크샵의 메인 레포입니다.
 
 ### 문서 바로가기
  
