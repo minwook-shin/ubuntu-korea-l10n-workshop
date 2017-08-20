@@ -21,7 +21,7 @@ https://github.com/minwook-shin/ubuntu-korea-l10n-workshop / short_url : https:/
 
 [세부 일정 안내](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/docs/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf)
 
-[프리젠테이션 PDF](https://minwook-shin.github.io/ubuntu-korea-l10n-workshop/index.html) (워크숍 이후 전체공개 예정입니다.)
+[프리젠테이션 PDF](https://minwook-shin.github.io/ubuntu-korea-l10n-workshop/index.html) (passwd : ubuntukoreal10n)
  
 ## 워크샵 본문
 우분투 번역에 기여하는 방법을 알아보고, 직접 번역에 참여도 해보는 실습 행사입니다.
