@@ -21,9 +21,32 @@ https://github.com/minwook-shin/ubuntu-korea-l10n-workshop / short_url : https:/
 
 [세부 일정 안내](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/docs/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf)
 
+- 구 버전
 [프리젠테이션 PDF](https://minwook-shin.github.io/ubuntu-korea-l10n-workshop/index.html) (passwd : ubuntukoreal10n)
- 
-## 워크샵 본문
+
+
+## 23년도 워크샵 본문
+우분투에서 제공되는 다양한 소프트웨어 패키지의 한국어 지원에 참여해 보고 싶다면, 이번 우분투 한국어 번역 워크샵에 참여 하셔서 직접 각종 우분투 패키지 번역에 참여 해 보세요.
+참석 하시는 분들은 각자 개인 노트북을 지참 하셔야 합니다.
+
+일시: 2023. 5. 13. 오후 2:00:00 ~ 2023. 5. 13. 오후 5:30:00
+
+위치: OpenUP Playground
+
+* 안내사항
+    * 본 행사는 실습 행사이며, 아래와 같은 준비물을 준비해 오셔야 합니다.
+        * 우분투가 설치된 노트북(VirtualBox 등 가상머신으로도 가능.)
+        * Launchpad 계정 - 있으면 좋고, 없으면 당일 새로 생성 하셔도 됩니다.
+        * 권장 : 네트워크 연결을 위한 장비(휴대전화 핫스팟, 포켓 WiFi 등)
+
+    * 행사 관련 문의는 contact@ubuntu-kr.org 으로 해주시기 바랍니다.
+
+연사 : 신민욱 - 우분투한국커뮤니티 L10n팀 관리자
+
+url : https://event.ubuntu-kr.org/2023/04/17/2023-l10n-workshop/
+
+
+## 17년도 워크샵 본문
 우분투 번역에 기여하는 방법을 알아보고, 직접 번역에 참여도 해보는 실습 행사입니다.
 소프트웨어 번역에 관심이 있고, 우분투 번역에 참여해 보고 싶으시다면 누구든지 참석할 수 있습니다.
 참석 하시는 분들은 각자 개인 노트북을 지참 하셔야 합니다.
