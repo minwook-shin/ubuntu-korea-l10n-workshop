@@ -7,7 +7,7 @@
 2. Log in / Register 를 클릭하여 회원가입을 진행합니다.
    (launchpad ID가 있으신분은 8번으로 넘어가 주세요.)
 
-![alt tag](media/ubuntu_one_sign_up.PNG)
+![alt tag](media/ubuntu_one_sign_up.png)
 
 3. 체크박스 I don’t have an Ubuntu One account 를 선택합니다.
 
