@@ -74,35 +74,97 @@
 
 ### 1) GPG키를 만들어 봅시다.
 
-1) gpg --gen-key 를 터미널에 입력합니다.
+1) 아래 명령어로 키를 생성해볼 수 있습니다.
 
 ```shell
-gpg --gen-key
+gpg --full-generate-key
+```
+
+```text
+vm@VirtualBox:~$ gpg --full-generate-key
+gpg (GnuPG) 2.2.40; Copyright (C) 2022 g10 Code GmbH
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+  (14) Existing key from card
+Your selection? 
+```
+
+```text
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (3072) 
 ```
 
 2) 기본값을 선택하기위해 enter를 누릅니다.
 
-3) 최종확인 질문이 나오면 y를 입력합니다. (틀리면 n)
+```text
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0) 
+```
 
-4) gpg키의 이름,메일주소를 작성합니다.
+3) 만료 시기를 지정하려면 숫자를 입력합니다. 
 
-5)입력한 정보가 맞다면 o를 눌러 확인합니다
+1 (1 일), 1w (1 주), 1m (1 달), 1y (1 년) 입니다.
 
-6)비밀번호를 만들어 줍니다.
+4) 만료 기간을 지정하면 만료되는 시점을 알려주고, 맞는지 확인합니다. (맞으면 y 입력)
 
-7) 랜덤 바이트를 모아줍니다.
+5) gpg키의 이름,메일주소를 작성합니다.
+
+```text
+GnuPG needs to construct a user ID to identify your key.
+
+Real name: tester
+Email address: test@test.com
+Comment: 
+You selected this USER-ID:
+    "tester <test@test.com>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? 
+```
+
+6) 입력한 정보가 맞다면 o를 눌러 확인합니다
+
+7) 비밀번호를 만들어 줍니다.
+
+8) 아래 안내가 나오면 랜덤 바이트를 모아줍니다.
+
+```text
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+```
 
 * 참조 [스택오버플로우](https://stackoverflow.com/questions/11708334/pgp-asymmetric-not-enough-random-bytes-available-please-do-some-other-work-to)
 
-8) gpg2 --list-key 명령어로 자신의 키 id를 확인합니다.
+9) 공개키와 비밀키가 생성되었으므로 gpg2 --list-key 명령어로 자신의 키 id를 확인합니다.
 
 ```shell
-gpg2 --list-key 
+gpg --list-key 
+```
+
+```text
+vm@VirtualBox:~$ gpg --list-key
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   2  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 2u
+gpg: next trustdb check due at 2023-05-05
+/home/vm/.gnupg/pubring.kbx
 ```
 
 ### 2) 우분투 서버에 키를 동기화 해봅시다.
 
-1) gpg --send-keys --keyserver keyserver.ubuntu.com {키ID} 를 터미널에 입력합니다.
+1) 아래 명령어를 입력해서 keyserver.ubuntu.com 키 서버로 올립니다.
 
 ```shell
 gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
@@ -124,10 +186,10 @@ gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
 
 ### 4) 핑거프린트를 확인해봅시다.
 
-1) gpg --fingerprint를 터미널에 입력하여 현재 가지고 있는 키의 핑거프린트를 확인합니다.
+1) 아래 명령어를 터미널에 입력하여 현재 가지고 있는 키의 핑거프린트를 확인합니다.
 
 ```shell
 gpg --fingerprint
 ```
 
-[다음](04.code-of-conduct%EC%84%9C%EB%AA%85%ED%95%98%EA%B8%B0.md) 챕터로 넘어갑시다!
+[다음](04_signing_code-of-conduct.md) 챕터로 넘어갑시다!

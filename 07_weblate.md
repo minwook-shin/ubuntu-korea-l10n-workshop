@@ -18,7 +18,9 @@ github : https://github.com/canonical/ubuntu-desktop-installer
 
 weblate : https://hosted.weblate.org/languages/ko/ubuntu-desktop-installer/
 
-1. weblate ubuntu-desktop-installer 프로젝트 화면에서 우측 상단 가입&로그인 (github 커밋 연동을 위해 동일한 이메일 추천)
+1. weblate ubuntu-desktop-installer 프로젝트 화면에서 우측 상단 가입&로그인 
+   * github 커밋 연동을 위해 동일한 이메일 추천
+   * 1 장에서 생성한 Ubuntu One 계정 사용 추천
 2. 아래 패키지 번역을 위해서 페이지 접근 후 번역하기 클릭
 
 ![alt tag](media/weblate_ubuntu_installer.png)

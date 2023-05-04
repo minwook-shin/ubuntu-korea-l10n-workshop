@@ -5,25 +5,30 @@ https://github.com/minwook-shin/ubuntu-korea-l10n-workshop / short_url : https:/
 
 ### 문서 바로가기
  
-[00.목차](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/00.%EB%AA%A9%EC%B0%A8.md)
+* [목차](00_index.md)
 
-[01.안내&준비](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/01.%EC%95%88%EB%82%B4%26%EC%A4%80%EB%B9%84.md)
- 
-[02.launchpad가입하기](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/02.launchpad%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0.md)
- 
-[03.GPG만들기](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/03.GPG%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
- 
-[04.code-of-conduct서명하기](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/04.code-of-conduct%EC%84%9C%EB%AA%85%ED%95%98%EA%B8%B0.md)
- 
-[05.팀가입하기](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/05.%ED%8C%80%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0.md) 
- 
-[06.번역참여해보기](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/06.%EB%B2%88%EC%97%AD%EC%B0%B8%EC%97%AC%ED%95%B4%EB%B3%B4%EA%B8%B0.md) 
+* [안내 & 준비](01_prepare_workshop.md)
 
-[세부 일정 안내](https://github.com/minwook-shin/ubuntu-korea-l10n-workshop/blob/master/docs/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf)
+* [launchpad 가입](02_sign_up_launchpad.md)
+
+* [GPG 생성](03_create_GPG_key.md)
+
+* [code-of-conduct 서명](04_signing_code-of-conduct.md)
+
+* [팀 가입](05_join_team.md)
+
+* [launchpad 번역 참여](06_how_to_translate.md)
+
+* [weblate 번역 참여](07_weblate.md)
+
+- 구 버전
+[세부 일정 안내](docs/17_workshop/Ubuntu%20Korea%20Community%20l10n%20workshop%20schedule.pdf)
 
 - 구 버전
 [프리젠테이션 PDF](https://minwook-shin.github.io/ubuntu-korea-l10n-workshop/index.html) (passwd : ubuntukoreal10n)
 
+- 23년도 버전
+[세부 일정 안내](docs/23_workshop/Ubuntu_Korea_Community_l10n_workshop_information.pdf)
 
 ## 23년도 워크샵 본문
 우분투에서 제공되는 다양한 소프트웨어 패키지의 한국어 지원에 참여해 보고 싶다면, 이번 우분투 한국어 번역 워크샵에 참여 하셔서 직접 각종 우분투 패키지 번역에 참여 해 보세요.
