@@ -6,13 +6,13 @@
 
 ## GUI
 
-### 1) GPG키를 만들어 봅시다.
+### GPG키를 만들어 봅시다.
 
-1) 프로그램 → 보조프로그램 → 암호 및 키를 클릭하거나, 터미널로 ```seahorse &``` 프로그램 실행합니다.
+1) 암호 및 키 어플리케이션을 클릭하거나, 터미널로 ```seahorse &``` 명령어를 실행합니다.
 
 <img alt="alt tag" height="50%" src="media/seahorse.png" width="50%"/>
 
-2) 새 항목 추가 - PGP 키 매뉴를 선택합니다.
+2) 새 항목 추가 버튼을 눌러서 PGP 키 항목을 선택합니다.
 
 <img alt="alt tag" height="50%" src="media/seahorse_menu.png" width="50%"/>
 
@@ -22,23 +22,23 @@
 <img alt="alt tag" height="50%" src="media/seahorse_enter.png" width="50%"/>
 <img alt="alt tag" height="50%" src="media/seahorse_enter_complete.png" width="50%"/>
 
-모두 완료해면 만들기 버튼이 활성화됩니다.
+모두 완료하면 만들기 버튼이 활성화됩니다.
 
 4) 잠시 기다립니다.
 
 <img alt="alt tag" height="50%" src="media/seahorse_create_gpg_key.png" width="50%"/>
 
-### 2) 우분투 서버에 키를 동기화 해봅시다.
+### 우분투 서버에 키를 동기화 해봅시다.
 
-1) 원격매뉴에서 키 동기화 및 공개 매뉴를 선택합니다.
+1) 원격 매뉴에서 키 동기화 및 공개를 선택합니다.
 
 <img alt="alt tag" height="50%" src="media/seahorse_sync_menu.png" width="50%"/>
 
-2) 키 서버를 누릅니다.
+2) 키 서버 버튼을 누릅니다.
 
 <img alt="alt tag" height="50%" src="media/seahorse_sync_without_server.png" width="50%"/>
 
-3) 키를 공개할 곳에서 hkp://keyserver.ubuntu.com:11371를 입력하거나 선택합니다.
+3) 키를 공개할 곳에서 hkp://keyserver.ubuntu.com:11371 주소를 입력하거나 선택합니다.
 
 <img alt="alt tag" height="50%" src="media/seahorse_select_server.png" width="50%"/>
 
@@ -48,9 +48,9 @@
 
 5) 동기화하고 기다립니다.
 
-### 3) 개인키를 백업해봅시다.
+### 개인키를 백업해봅시다.
 
-1) 내 폴더에서 숨김 파일을 보이게 설정하고 Home 폴더에서 .gnupg 폴더를 찾습니다.
+1) 내 폴더에서 숨김 파일을 보이게 설정하고 .gnupg 디렉토리를 찾습니다.
 
 <img alt="alt tag" height="50%" src="media/find_my_gnupg_using_gui.png" width="50%"/>
 
@@ -58,9 +58,9 @@
 
 <img alt="alt tag" height="50%" src="media/seahorse_key_menu.png" width="50%"/>
 
-3) 혹은 암호 및 암호화 키 프로그램에서 내보내기로 asc파일으로 백업합니다.
+3) 혹은 암호 및 암호화 키 프로그램에서 내보내기를 사용해서 asc 파일으로 백업합니다.
 
-### 4) 핑거프린트를 확인해봅시다.
+### 핑거프린트를 확인해봅시다.
 
 <img alt="alt tag" height="50%" src="media/seahorse_key_menu.png" width="50%"/>
 
@@ -72,7 +72,7 @@
 
 ## CLI
 
-### 1) GPG키를 만들어 봅시다.
+### GPG키를 만들어 봅시다.
 
 1) 아래 명령어로 키를 생성해볼 수 있습니다.
 
@@ -100,7 +100,7 @@ RSA keys may be between 1024 and 4096 bits long.
 What keysize do you want? (3072) 
 ```
 
-2) 기본값을 선택하기위해 enter를 누릅니다.
+2) 기본 값을 선택하기위해 enter를 누릅니다.
 
 ```text
 Please specify how long the key should be valid.
@@ -112,13 +112,13 @@ Please specify how long the key should be valid.
 Key is valid for? (0) 
 ```
 
-3) 만료 시기를 지정하려면 숫자를 입력합니다. 
+3) 만료 시기를 지정하려면 숫자를 입력하거나 만료 시기를 정하지 않고 싶다면 기본값 0으로 둡니다.
 
-1 (1 일), 1w (1 주), 1m (1 달), 1y (1 년) 입니다.
+다음과 같이 1 (1 일), 1w (1 주), 1m (1 달), 1y (1 년) 을 입력할 수 있습니다.
 
 4) 만료 기간을 지정하면 만료되는 시점을 알려주고, 맞는지 확인합니다. (맞으면 y 입력)
 
-5) gpg키의 이름,메일주소를 작성합니다.
+5) gpg키의 이름, 이메일을 작성합니다.
 
 ```text
 GnuPG needs to construct a user ID to identify your key.
@@ -147,7 +147,7 @@ generator a better chance to gain enough entropy.
 
 * 참조 [스택오버플로우](https://stackoverflow.com/questions/11708334/pgp-asymmetric-not-enough-random-bytes-available-please-do-some-other-work-to)
 
-9) 공개키와 비밀키가 생성되었으므로 gpg2 --list-key 명령어로 자신의 키 id를 확인합니다.
+9) 공개키와 비밀키가 생성되었으므로 gpg --list-key 명령어로 자신의 키 id를 확인합니다.
 
 ```shell
 gpg --list-key 
@@ -162,9 +162,9 @@ gpg: next trustdb check due at 2023-05-05
 /home/vm/.gnupg/pubring.kbx
 ```
 
-### 2) 우분투 서버에 키를 동기화 해봅시다.
+### 우분투 서버에 키를 동기화 해봅시다.
 
-1) 아래 명령어를 입력해서 keyserver.ubuntu.com 키 서버로 올립니다.
+1) 아래 명령어를 사용해서 자신의 공개키를 keyserver.ubuntu.com 키 서버로 올립니다.
 
 ```shell
 gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
@@ -172,9 +172,9 @@ gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
 
 2) 동기화하고 기다립니다.
 
-### 3) 개인키를 백업해봅시다.
+### 개인키를 백업해봅시다.
 
-1) 내 폴더에서 숨김 파일을 보이게 설정하고 Home 폴더에서 .gnupg 폴더를 찾습니다.
+1) 내 폴더에서 숨김 파일을 보이게 설정하고 .gnupg 디렉토리를 찾습니다.
 
 <img alt="alt tag" height="50%" src="media/find_my_gnupg_using_gui.png" width="50%"/>
 
@@ -182,9 +182,9 @@ gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
 
 <img alt="alt tag" height="50%" src="media/seahorse_key_menu.png" width="50%"/>
 
-3) 혹은 암호 및 암호화 키 프로그램에서 내보내기로 asc파일으로 백업합니다.
+3) 혹은 암호 및 암호화 키 프로그램에서 내보내기를 사용해서 asc 파일으로 백업합니다.
 
-### 4) 핑거프린트를 확인해봅시다.
+### 핑거프린트를 확인해봅시다.
 
 1) 아래 명령어를 터미널에 입력하여 현재 가지고 있는 키의 핑거프린트를 확인합니다.
 
