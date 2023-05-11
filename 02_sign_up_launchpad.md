@@ -21,5 +21,5 @@
 
 8. launchpad에 로그인합니다.
 
-[다음](03_create_GPG_key.md) 챕터로
+[GPG 생성 및 백업](03_create_GPG_key.md) 챕터로
 넘어갑시다!

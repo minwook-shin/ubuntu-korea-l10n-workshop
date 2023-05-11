@@ -192,4 +192,4 @@ gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
 gpg --fingerprint
 ```
 
-[다음](04_signing_code-of-conduct.md) 챕터로 넘어갑시다!
+[code of conduct 서명](04_signing_code-of-conduct.md) 챕터로 넘어갑시다!
