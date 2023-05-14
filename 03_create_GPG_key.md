@@ -172,6 +172,13 @@ gpg --send-keys --keyserver keyserver.ubuntu.com {키ID}
 
 2) 동기화하고 기다립니다.
 
+### 우분투 서버의 저장된 키를 확인합니다.
+1) 아래 명령어를 사용해서 자신의 공개키와 keyserver.ubuntu.com의 키와 비교 확인합니다.
+
+```shell
+gpg --keyserver hkp://keyserver.ubuntu.com --search-key {e-mail}
+```
+
 ### 개인키를 백업해봅시다.
 
 1) 내 폴더에서 숨김 파일을 보이게 설정하고 .gnupg 디렉토리를 찾습니다.
