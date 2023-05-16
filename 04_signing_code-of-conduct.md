@@ -54,7 +54,19 @@ Launchpad has requested some personal information, please choose what you would 
 
 2) [Download](https://launchpad.net/codeofconduct/2.0/+download)를 눌러 최신 code of conduct 본문을 내려받습니다.
 
-(혹은 https://launchpad.net/codeofconduct/2.0/+download 을 이용해도 됩니다.)
+(혹은 파일을 다운로드하는 데에는 `curl`이나 `wget` 명령어를 사용할 수 있습니다.)
+
+#### curl으로 다운로드
+
+``` shell
+curl -o UbuntuCodeofConduct-2.0.txt https://launchpad.net/codeofconduct/2.0/+download
+```
+
+#### wget으로 다운로드
+
+``` shell
+wget -O UbuntuCodeofConduct-2.0.txt https://launchpad.net/codeofconduct/2.0/+download
+```
 
 3) gpg --clearsign UbuntuCodeofConduct-2.0.txt를 터미널에 입력합니다.
 
